@@ -65,7 +65,7 @@ $normalbalance = $balance / "100000000000";
                                         $amountbig = $_POST["amount"];
                                         $amount = $amountbig * "100000000000";
                                         $feebig = $_POST["fee"];
-                                        $fee = $feebig * "100000000000";
+                                        $fee = $feebig * "0";
 					$receive = $_POST["receive"];
                                         echo $amount;
                                         echo $receive;
