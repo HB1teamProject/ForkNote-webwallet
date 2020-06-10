@@ -62,7 +62,7 @@ $normalbalance = $balance / "100000000000";
                         echo '  <div class="col-lg-2"></div><div class="col-lg-8">
 
                         <form id="mailform" action="withdraw.php" method="post">
-                        <h3>minimum fee is 0.01</h3>
+                        <h3>minimum fee is 0.00</h3>
                         <label id="amount"> amount:</label><br/>
                         <input type="text" name="amount"><br/>
 			<label id="fee">Fee:</label><br/>
@@ -86,7 +86,7 @@ $normalbalance = $balance / "100000000000";
                                         $amountbig = $_POST["amount"];
                                         $amount = $amountbig * "100000000000";
                                         $feebig = $_POST["fee"];
-                                        $fee = $feebig * "100000000000";
+                                        $fee = $feebig * "0";
 					$receive = $_POST["receive"];
                                         echo $amount;
                                         echo $receive;
